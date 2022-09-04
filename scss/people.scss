@@ -1,0 +1,65 @@
+.people {
+    height: 600px;
+    background: #f8f9fa;
+
+
+    h2 {
+        color: $h-color;
+        align-items: center;
+        font-size: 50px;
+        margin-bottom: 30px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        text-align: center;
+        margin: 0 100px;
+    }
+    .paprasciau {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    h3 {
+        color: $h-color;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    p {
+        color: $p-color;
+    }
+
+    .img-face-1 {
+        background: url(../content/testimonials-1.jpg);
+        background-size: 100%;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
+        margin: auto;
+    }
+    .img-face-2 {
+        background: url(../content/testimonials-2.jpg);
+        background-size: 100%;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
+        margin: auto;
+    }
+    .img-face-3 {
+        background: url(../content/testimonials-3.jpg);
+        background-size: 100%;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
+        margin: auto;
+    }
+  
+}

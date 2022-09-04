@@ -1,0 +1,40 @@
+.po-content {
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../content/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    padding-top: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0 400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 550px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: grey;
+    font-size: 1.5em;
+    font-size: bold;
+    border: none;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    }  
+
+
+    .po-content button {
+        width: 150px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+    }

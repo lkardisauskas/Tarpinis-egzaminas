@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    text-align: justify;
+
+    .content-text {
+        width: 50%;
+        padding: 200px 100px;
+        margin: auto;
+        font-size: 1.5em;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        color: $h-color;
+    }
+
+    p {
+        margin-right: 100px;
+        color: $p-color;
+        font-size: 20px;
+    }
+
+
+
+    .img-iphone {
+        background: url(../content/bg-showcase-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+        
+    }
+    .img-showcase-2 {
+        background: url(../content/bg-showcase-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+    }
+    .img-showcase-3 {
+        background: url(../content/bg-showcase-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;        
+    }
+
+
+}    
+.content:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }

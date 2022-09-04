@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: Lato;
+    p {
+      font-weight: 300;
+    }
+  }
+
+  button {
+    background: #2b78fa;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    
+  }
+
+  svg {
+    width: 100px;
+  }
+

@@ -1,0 +1,25 @@
+.about-page {
+    background: #f8f9fa;
+    display: flex;
+    height: 550px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 30px;
+
+    ul {
+        margin: 0 100px;
+    }
+
+    h3 {
+        color: $h-color;
+        margin: 10px 0;
+        font-size: 2em;
+    }
+
+    p {
+        color: $p-color;
+        margin: 30px;
+        font-size: 1.5em;
+    }
+}

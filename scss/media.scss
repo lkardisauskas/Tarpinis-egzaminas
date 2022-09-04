@@ -1,0 +1,255 @@
+@media (max-width:1100px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    header {
+        width: 100%;
+        font-size: 1.2em;
+        padding: 0 100px;
+
+    }
+
+   .po-header {
+    min-width: 100%;
+    height: auto;
+    font-size: 10px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-size: auto;
+
+    input {
+        align-items: center;
+            }
+   }
+
+   .about-page {
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+
+    ul {
+        margin-top: 20px;
+    }
+   }
+
+   .content {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+
+    .content-text {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+   }
+}
+
+@media (max-width:659px) {
+        header {
+            padding: 0 20px;
+        }
+
+
+
+
+        .img-iphone {
+            background: url(../content/bg-showcase-1.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            object-fit: contain;
+            width: 50%;
+            
+        }
+        .img-showcase-2 {
+            background: url(../content/bg-showcase-2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 50%;
+        }
+        .img-showcase-3 {
+            background: url(../content/bg-showcase-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 50%;        
+        }
+        
+    }
+
+
+    @media (max-width: 430px) {
+
+        * {
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+
+        header {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            margin: auto;
+            justify-content: center;
+            right: 0;
+            top: 0;
+        }
+
+        .po-header {
+            font-size: 0.6em;
+            padding: auto;
+        }
+
+        .about-page {
+            height: auto;
+            margin: auto;
+            flex-direction: column;
+        }
+        .po-header h1 {
+            padding: 0;
+        }
+        
+
+        .people  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+        }
+
+        .people li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .po-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-mobile {
+            flex-direction: column;
+            height: auto;
+            width: auto;
+        }
+
+        .people .paprasciau {
+            display: block;
+        }
+
+        footer {
+            display: block;
+
+            .social-media {
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 50px;
+                padding-top: 20px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                display: none;
+            }
+
+            nav {
+                justify-content: center;
+            }
+        }
+
+        .po-content .bg-masthead {
+            display: block;
+
+            input {
+                width: 90%;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            button {
+                width: 90%;
+                // padding-top: 10px;
+            }
+        }
+
+        .po-content {
+
+            h1 {
+                padding: 0 20px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .people ul {
+            padding: 50px;
+        }
+
+        header {
+            justify-content: space-around;
+        }
+
+        .po-header .bg-masthead {
+
+            flex-direction: column;
+            align-items: center;
+
+            input {
+                width: 90%;
+                margin-bottom: 10px;
+                
+            }
+
+            button {
+                width: 90%;
+                font-size: 25px;
+            }
+        }
+
+        .content-mobile {
+            display: flex;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    // .people {
+    //     display: none;
+    // }
+
+    // footer {
+    //     display: none;
+    // }
+
+    // .po-content {
+    //     display: none;
+    // }
+
+    // .content {
+    //     display: none;
+    // }
+
+    // header {
+    //     display: none;
+    // }
+
+    // .about-page {
+    //     display: none;
+    // }
